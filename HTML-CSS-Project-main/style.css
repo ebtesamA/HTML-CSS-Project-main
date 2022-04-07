@@ -1,0 +1,67 @@
+/* Font And Background */
+body {
+    background: linear-gradient(#e66465, #9198e5);
+    font-family: 'Cairo', sans-serif;
+}
+.container {
+    padding: 20px;
+}
+/* Start Profile */
+.profile {
+    display: flex;
+}
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.profile .text {
+    margin-left: 30px;
+}
+.profile h1 {
+    font-size: 29px;
+}
+.profile p {
+    width: 800px;
+}
+/* End Profile */
+/* hr tag customize */
+hr {
+    width: 130px;
+    margin: 20px auto;
+    border: none;
+    border-top: 6px dotted #777;
+}
+/* Strat Contact Info */
+.contact-info {
+    width: 100%;
+    text-align: center;
+    border: 1px #ddd solid;
+}
+.contact-info td {
+    width: 50%;
+    border: 1px #ddd solid;
+}
+/* End Contact Info */
+/* Start User Details */
+.user-details {
+    width: 100%;
+    text-align: center;
+    border: 1px #ddd solid;
+}
+.user-details td {
+    width: 50%;
+    border: 1px #ddd solid;
+    text-align: left;
+}
+/* Start User Details */
+.contact-btn {
+    display: block;
+    background-color: rgb(255, 83, 71);
+    color: white;
+    margin: 20px auto 0;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+
+}
